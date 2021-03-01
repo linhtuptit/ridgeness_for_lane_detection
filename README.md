@@ -6,7 +6,9 @@ This is useful technique with the aim of having a more reliable lane marking det
 
 The ridges is defined as longitudinal center of the lane marker as depicted is figure belows [1]  
 
-![ridge.png](/image/image.png?raw=true) 
+![ridge.png](/image/ridge.png?raw=true)  
+
+The left side in the above figure depicts a road image with a ROI outlined and also shows what we call center lines of the road lane. The right side of this image shows a landscape of mentioned ROI. The lane lines resemble mountains and their ridges correspond to the center lines of it. 
 
 ## **Mathematics Model**
 The authors in [1] proposed a mathematics definition to modelize ridges.  
