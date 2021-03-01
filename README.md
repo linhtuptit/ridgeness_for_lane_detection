@@ -4,6 +4,10 @@ This is useful technique with the aim of having a more reliable lane marking det
 - [Mathematics Model](#mathematics-model)
 - [Results](#results)
 
+The ridges is defined as longitudinal center of the lane marker as depicted is figure belows [1]  
+
+![ridge.png](/image/image.png?raw=true) 
+
 ## **Mathematics Model**
 The authors in [1] proposed a mathematics definition to modelize ridges.  
 Let <img src="https://render.githubusercontent.com/render/math?math=L\big(x\big)"> be the grey-level image and <img src="https://render.githubusercontent.com/render/math?math=G_{\sigma}\big(x\big)"> be a 2D gaussian filter of standard deviation <img src="https://render.githubusercontent.com/render/math?math=\sigma">, then, smoothed verson of the image is defined as: <img src="https://render.githubusercontent.com/render/math?math=L_{\sigma}\big(x\big)=G_{\sigma}\big(x\big)*L\big(x\big)">, in which, * denotes convolutional multiple.  
